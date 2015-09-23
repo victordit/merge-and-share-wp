@@ -1,0 +1,46 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .merge_share_button{
+ 	position: absolute;
+	z-index: 999;
+	margin-top: 40px;
+	/*right: 128px;*/
+	right: 178px;
+	margin-right: 0px;
+ }
+  .merge_share_button a{
+  	background-repeat: no-repeat;
+	background-image: url(button-share-white-left.png);
+	background-size: 100%;
+	width: 64px;
+	height: 64px;
+	display: block;
+	text-align: right;
+	text-indent: 76px;
+	padding-top: 19px;
+	color: #fff;
+	font-size: 2em;
+	font-family: 'PT Sans Narrow';
+	letter-spacing: 0.2em;
+	font-weight: 100;
+  }
+
+ body.merge-and-share-page{
+ 	text-align: center;
+ }
+ body.merge-and-share-page .fr-loading{display: none !important; }
+
+ #fb-share-div{
+ 	margin-top: 10px;
+ }
+ #fb-share .fb-click{
+ 	background-image: url(../images/facebook-share-button.png);
+	background-repeat: no-repeat;
+	width: 243px;
+	height: 59px;
+	display: inline-block;
+	text-indent: -999
+ }
